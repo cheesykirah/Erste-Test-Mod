@@ -1,5 +1,7 @@
 {
   "item.testmod.copper_ingot": "Kupfaborra",
-  "block.testmod.copper_block": "Kupfablock"
+  "item.testmod.copper_wire": "Kupfaschnürdala",
+  "block.testmod.copper_block": "Kupfablock",
+  "block.testmod.copper_ore": "Kupfaerz"
 
 }

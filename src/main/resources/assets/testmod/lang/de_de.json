@@ -1,5 +1,7 @@
 {
   "item.testmod.copper_ingot": "Kupferbarren",
-  "block.testmod.copper_block": "Kupferblock"
+  "item.testmod.copper_wire": "Kupferschnur",
+  "block.testmod.copper_block": "Kupferblock",
+  "block.testmod.copper_ore": "Kupfererz"
 
 }

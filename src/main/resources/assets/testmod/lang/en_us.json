@@ -1,5 +1,7 @@
 {
   "item.testmod.copper_ingot": "Copper Ingot",
-  "block.testmod.copper_block": "Copper Block"
+  "item.testmod.copper_wire": "Copper Wire",
+  "block.testmod.copper_block": "Copper Block",
+  "block.testmod.copper_ore": "Copper Ore"
 
 }
