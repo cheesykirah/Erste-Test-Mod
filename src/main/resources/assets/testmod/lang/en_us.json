@@ -2,6 +2,8 @@
   "item.testmod.copper_ingot": "Copper Ingot",
   "item.testmod.copper_wire": "Copper Wire",
   "block.testmod.copper_block": "Copper Block",
-  "block.testmod.copper_ore": "Copper Ore"
+  "block.testmod.copper_ore": "Copper Ore",
+
+  "itemGroup.TestTab": "TestMod"
 
 }

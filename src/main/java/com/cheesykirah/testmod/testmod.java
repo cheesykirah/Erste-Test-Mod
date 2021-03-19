@@ -5,6 +5,8 @@ import com.cheesykirah.testmod.item.ModItems;
 import com.cheesykirah.testmod.util.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -21,13 +23,18 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
-import static com.cheesykirah.testmod.block.ModBlocks.*;
-
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(testmod.MOD_ID)
 public class testmod
 {
     public static final String MOD_ID = "testmod";
+
+    public static final ItemGroup TEST_TAB = new ItemGroup("TestTab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModItems.COPPER_WIRE.get());
+        }
+    };
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();

@@ -2,6 +2,8 @@
   "item.testmod.copper_ingot": "Kupferbarren",
   "item.testmod.copper_wire": "Kupferschnur",
   "block.testmod.copper_block": "Kupferblock",
-  "block.testmod.copper_ore": "Kupfererz"
+  "block.testmod.copper_ore": "Kupfererz",
+
+  "itemGroup.TestTab": "TestMod"
 
 }

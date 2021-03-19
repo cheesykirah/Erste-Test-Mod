@@ -1,5 +1,6 @@
 package com.cheesykirah.testmod.item;
 
+import com.cheesykirah.testmod.testmod;
 import com.cheesykirah.testmod.util.Registration;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -9,11 +10,11 @@ public class ModItems
 {
     public static final RegistryObject<Item> COPPER_INGOT =
             Registration.ITEMS.register("copper_ingot",
-            () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+            () -> new Item(new Item.Properties().group(testmod.TEST_TAB)));
 
     public static final RegistryObject<Item> COPPER_WIRE =
             Registration.ITEMS.register("copper_wire",
-                    () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+                    () -> new Item(new Item.Properties().group(testmod.TEST_TAB)));
 
     public static void register() { }
 }

@@ -1,5 +1,6 @@
 package com.cheesykirah.testmod.block;
 
+import com.cheesykirah.testmod.testmod;
 import com.cheesykirah.testmod.util.Registration;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -31,7 +32,7 @@ public class ModBlocks {
     {
         RegistryObject<T> toReturn = Registration.BLOCKS.register(name, block);
         Registration.ITEMS.register(name, () -> new BlockItem(toReturn.get(),
-                new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+                new Item.Properties().group(testmod.TEST_TAB)));
         return toReturn;
     }
 }

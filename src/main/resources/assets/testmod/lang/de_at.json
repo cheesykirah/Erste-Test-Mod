@@ -2,6 +2,8 @@
   "item.testmod.copper_ingot": "Kupfaborra",
   "item.testmod.copper_wire": "Kupfaschnürdala",
   "block.testmod.copper_block": "Kupfablock",
-  "block.testmod.copper_ore": "Kupfaerz"
+  "block.testmod.copper_ore": "Kupfaerz",
+
+  "itemGroup.TestTab": "TestMod"
 
 }
